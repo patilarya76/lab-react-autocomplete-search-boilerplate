@@ -1,0 +1,65 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+  /* margin-left: 150px; */
+
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px; 
+  /* margin-left: 150px; */
+
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  font-size: 16px;
+  align-items: center;
+  margin-left: 150px;
+}
+
+datalist {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: none;
+  z-index: 1;
+}
+
+datalist.display {
+  display: block;
+}
+
+option {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* You can adjust the styling of the button as needed */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 700px;
+  margin-top: 50px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h1{
+  text-align: center;
+}
